@@ -5,7 +5,7 @@
   "private": false,
   "main": "lib/drawer.js",
   "bin": {
-    "draw": "./cli.js"
+    "gh-ogp": "./cli.js"
   },
   "license": "MIT",
   "dependencies": {
