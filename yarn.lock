@@ -517,6 +517,11 @@ set-blocking@~2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
+shlex@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/shlex/-/shlex-2.0.1.tgz#f3dfa388400604928fdc2d50388f421b8895ddf6"
+  integrity sha512-XrweL4ORG4Y9E9VvqsAjQ0Dhr4oW3BP6d4IceL7EnRA5Y7KU+4wCFg9HMhFm7SxhVswKu9emOvblBr7J17Vqtg==
+
 signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
@@ -618,6 +623,11 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.3"
 
+text-table@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
+  integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
 type-fest@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.4.1.tgz#8bdf77743385d8a4f13ba95f610f5ccd68c728f8"
@@ -652,6 +662,14 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+
+xcm@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/xcm/-/xcm-1.0.4.tgz#80182f62069396ab9f2d1be054d9881da0f0ab31"
+  integrity sha512-5Vcippg69DVXgxKSF7zFBfW4O0frS4Kuyn7MTPd/N366FpxDwl/HelSdLNQPB414/PqlLaeFwd3JA5trwvVLSA==
+  dependencies:
+    shlex "^2.0.1"
+    text-table "^0.2.0"
 
 yallist@^3.0.0, yallist@^3.0.3:
   version "3.0.3"

@@ -1,7 +1,8 @@
 {
   "name": "@kamataryo/gh-ogp",
   "description": "Draw simple OGP image optimized for GitHub repository",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "private": false,
   "main": "lib/drawer.js",
   "bin": {
     "draw": "./cli.js"
@@ -9,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "canvas": "^2.5.0",
-    "read-pkg-up": "^6.0.0"
+    "read-pkg-up": "^6.0.0",
+    "xcm": "^1.0.4"
   }
 }
