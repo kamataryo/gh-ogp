@@ -5,13 +5,11 @@ Draw simple OGP image optimized for GitHub repository
 # usage
 
 ```shell
+$ yarn global add @kamataryo/gh-ogp
 $ cd path/to/your/Node.js/project
-$ npx @kamataryo/gh-ogp dark > dark_image.png
-$ npx @kamataryo/gh-ogp light > light_image.png
+$ gh-ogp dark > dark_image.png
+$ gh-ogp light > light_image.png
 ```
-
-It takes some time to install dependencies when your execute `gh-ogp` at first time.
-You can install `gh-ogp` globally.
 
 # development
 
