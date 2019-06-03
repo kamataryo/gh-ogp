@@ -1,7 +1,7 @@
 {
   "name": "@kamataryo/gh-ogp",
   "description": "Draw simple OGP image optimized for GitHub repository",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "main": "lib/drawer.js",
   "bin": {
